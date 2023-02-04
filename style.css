@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-position: center;
+    line-height: 1.8;
+    /* background-color: blueviolet; */
+}
+#container{
+
+    margin: 90px auto;
+    max-width: 500px;
+    /* background-color: rgb(238, 234, 234); */
+    padding: 20px;
+}
+img{
+    margin-left: 170px;
+    flex-wrap: wrap;
+}
+hgroup{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+    display: flex;
+    width: 450px;
+}
+.form-wrap{
+    padding: 15px 5px;
+    /* background-color: black; */
+    color: rgb(14, 1, 1);
+    border-radius: 6px;
+    flex-wrap: wrap;
+    
+}
+.form-wrap input{
+    width:450px ;
+    border: gray 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(245, 245, 245);
+    flex-wrap: wrap;
+}
+.form-wrap .form-group{
+    margin-top: 10px;
+}
+.form-wrap  button{
+    width: 430px;
+    padding: 10px;
+    margin: 30px 5px;
+    border-radius: 6px;
+    border-color: rgb(133, 132, 129);
+    background-color: white;
+ }
+ .form-wrap button:hover{
+    background-color: rgb(206, 203, 201);
+    color: white;
+    font-weight: bold;
+ }
+ 
+ /* style for decere */
+ #dec-container{
+    margin: 90px auto;
+    max-width: 500px;
+    background-color: rgb(116, 5, 5);
+    padding: 20px;
+
+
+ }
+ @media screen and (min-width: 360px){
+    
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-position: center;
+        line-height: 1.8;
+
+    }
+    #container{
+
+        margin: 90px auto;
+        max-width: 360px;
+        /* background-color: rgb(238, 234, 234); */
+        padding: 20px;
+    }
+
+     
+    form-wrap input{
+        width:200px ;
+        border: gray 1px solid;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgb(245, 245, 245);
+        flex-wrap: wrap;
+    }
+    hgroup{
+        width:360x ;
+        text-align: justify;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        /* flex-wrap: wrap; */
+        /* margin: 30px; */
+    }
+     
+ }
